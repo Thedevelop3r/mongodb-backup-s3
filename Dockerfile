@@ -7,4 +7,4 @@ ENV CRON_TIME="0 3 * * *" \
   CRON_TZ=US/Eastern
 
 ADD run.sh /run.sh
-CMD chmod +x /run.sh
+CMD sudo /run.sh
